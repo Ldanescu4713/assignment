@@ -57,7 +57,6 @@
                 <li><a href="https://www.visitczechrepublic.com" target="_blank" title="Official Czech Republic Travel Site">Visit Czech Republic</a></li>
             </ul>
         </section>
-
         <!--Table-->
         <section id="quick-facts">
             <h2>Quick Facts About Prague</h2>
@@ -93,12 +92,40 @@
                 </tbody>
             </table>
         </section>
-
-
-     
         <!--Form-->
-        <section>
-            
+        <section id="contact-form">
+            <h2>Contact Us</h2>
+            <form action="#" method="post">
+                <table border="0" cellpadding="1" cellspacing="0">
+                    <tr valign="middle">
+                        <th align="right"><label for="fullName">Your Name:</label></th>
+                        <td><input type="text" id="fullName" name="fullName" placeholder="Enter your full name" required autofocus /></td>
+                    </tr>
+                    <tr valign="middle">
+                        <th align="right"><label for="email">Email Address:</label></th>
+                        <td><input type="email" id="email" name="email" placeholder="you@example.com" required /></td>
+                    </tr>
+                    <tr valign="middle">
+                        <th align="right"><label for="reason">Reason for Contact:</label></th>
+                        <td>
+                            <select id="reason" name="reason" required>
+                                <option value="" disabled selected>Select an option</option>
+                                <option value="tourism">Tourism Info</option>
+                                <option value="business">Business Inquiry</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr valign="middle">
+                        <th align="right"><label for="message">Your Message:</label></th>
+                        <td><textarea id="message" name="message" rows="4" placeholder="Write your message here"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><button type="submit">Submit</button></td>
+                    </tr>
+                </table>
+            </form>
         </section>
     </aside>
     <footer>
