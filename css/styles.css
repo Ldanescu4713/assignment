@@ -1,0 +1,9 @@
+/* Student Name: Laurentiu Danescu
+Student Number: 9024713
+Description: This stylesheet applies layout and design rules to style my website about Prague */
+
+/* Inserting a root element selector for styling the html element with font shorthand to ensure font consistency across the page. */
+html {
+    /* inserting font style variant, weight size, line-height family */
+    font: italic small-caps bold 20px/1.5 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+}
