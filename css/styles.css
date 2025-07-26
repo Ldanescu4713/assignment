@@ -45,12 +45,9 @@ header, footer {
 header h1 {
     font-size: 2.8rem; /* increasing the header font size to emphasize */
     color: #1435bc;    /* changing to a unique color for header */
-    margin: 0;
-}
-footer p {
-    font-size: 1rem;   /* decreasing footer font size */
-    margin: 0;
-}
+    margin: 0;}
+footer p {font-size: 1rem;   /* decreasing footer font size */
+    margin: 0;}
 /* inserting a section heading selector linked to all sections headings to ensure consistency. This uses an element selector and a child selector to provide variety. */
 section > h2 {
     font-variant: small-caps;
@@ -60,3 +57,16 @@ section > h2 {
     color: #6c4f2a;
     text-align: left;
     margin-bottom: 1rem; }
+
+/* inserting a selector for the blockquote for more readability; this uses element selector */
+/* Blockquote selector: Styles quoted text for emphasis and readability.
+   Uses element selector. */
+blockquote {
+    font-style: italic; /* quoted text */
+    background-color: #7de8db; /* changing color of background for contrast */
+    padding: 1.5rem; /* adding internal spacing using rem units */
+    border-left: 0.5rem solid #1cb0e1; /* emphasis on quote */
+    width: 70%; /* making the width responsive width using percentage */
+    margin: 2rem auto; /* centers blockquote */
+    box-shadow: 0 0.5rem 1rem 0.1rem rgba(120, 100, 80, 0.08); /* subtle lift effect */
+}
