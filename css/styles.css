@@ -35,7 +35,7 @@ aside {
 footer {
     clear: both;
 }
-/* Styling the header and footer by applies gradient background, centering text, adjusting font size and color to improve readability*/
+/* styling the header and footer by applies gradient background, centering text, adjusting font size and color to improve readability*/
 header, footer {
     background: linear-gradient(90deg, #1cb0e1 0%, #e6d9c6 100%);
     text-align: center;
@@ -51,3 +51,12 @@ footer p {
     font-size: 1rem;   /* decreasing footer font size */
     margin: 0;
 }
+/* inserting a section heading selector linked to all sections headings to ensure consistency. This uses an element selector and a child selector to provide variety. */
+section > h2 {
+    font-variant: small-caps;
+    font-style: italic;
+    font-weight: 700;
+    font-family: 'Georgia', serif;
+    color: #6c4f2a;
+    text-align: left;
+    margin-bottom: 1rem; }
