@@ -141,6 +141,8 @@ a:active {
 /* adding full width, collapsed borders, margins and row effects to the form table using element, pseudo-class and descendant selectors */
 table {
     width: 100%;
+    min-width: none;
+    max-width: 100%;
     border-collapse: collapse;
     box-sizing: border-box;
     margin-bottom: 0.2rem;
