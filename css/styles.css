@@ -157,11 +157,11 @@ td {
     border: 0.2rem solid #24a7e4;
 }
 tbody tr:nth-child(even) {
-    background-color: #f8e7cd;
+    background-color: #ebd8cf;
 }
 tbody tr:nth-child(odd) {
-    background-color: #b4924c;
+    background-color: #e7dabf;
 }
 tbody tr:hover {
-    background-color: #c5bbab;
+    background-color: #c5bbabbd;
 }
