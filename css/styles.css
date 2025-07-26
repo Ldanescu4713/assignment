@@ -84,7 +84,7 @@ figure img {
     display: block;
     border: 0.2rem solid #1cb0e1;
     border-radius: 0.8rem;
-    width: 90%;
+    width: 80%;
     height: auto;
     margin: 0 auto;
 }
@@ -101,7 +101,7 @@ figcaption {
     display: block;
     border:0.3rem solid #1cb0e1;
     border-radius: 0.8rem;
-    width: 80%;
+    width: 70%;
     height: 400px;
     margin:1.5rem auto;
     box-sizing: border-box;
@@ -140,7 +140,7 @@ a:active {
 }
 /* adding full width, collapsed borders, margins and row effects to the form table using element, pseudo-class and descendant selectors */
 table {
-    width: 100%;
+    width: 90%;
     border-collapse: collapse;
     margin-bottom: 0.2rem;
 }
