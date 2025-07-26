@@ -149,28 +149,32 @@ th {
     text-align: left;
     font-weight: 600;
     font-variant: small-caps;
-    color: #efece6;
+    color: #ffffff; /* Changed from #efece6 to pure white for better contrast */
     background-color: #1cb0e1;
     padding: 0.2rem;
 }
 td {
     padding: 0.2rem;
     border: 0.2rem solid #24a7e4;
+    color: #222; /* Ensure dark text for good contrast */
+    background-color: #fff; /* Optional: add a white background for max contrast */
 }
 tbody tr:nth-child(even) {
-    background-color: #ebd8cf;
+    background-color: #f5e7df; /* Slightly darker for better contrast */
 }
 tbody tr:nth-child(odd) {
-    background-color: #e7dabf;
+    background-color: #f0e4ce; /* Slightly darker for better contrast */
 }
 tbody tr:hover {
-    background-color: #c5bbabbd;
+    background-color: #b3a78e; /* Darker hover for better contrast */
 }
-/* Adding a style to the form elements styiling the labels and controls for better accessibility using class selectors */
+/* ...existing code... */
 label {
     font-variant: small-caps;
     font-weight: 600;
     color: #1435bc;
+    background-color: #fff; /* Optional: add white background for contrast */
+    padding: 0.1rem 0.2rem; /* Optional: add some padding */
 }
 input, select, textarea, button {
     padding: 0.2rem;
@@ -183,10 +187,12 @@ input, select, textarea, button {
     box-sizing: border-box;
     font-size: 1rem;
     font-family: inherit;
+    color: #222; /* Ensure dark text for good contrast */
+    background-color: #fff; /* White background for max contrast */
 }
 button {
     background-color: #1cb0e1;
-    color: #e2e1de8d;
+    color: #fff; /* Changed from semi-transparent to white for contrast */
     font-weight: bold;
     cursor: pointer;
     border: none;
@@ -196,4 +202,5 @@ button {
 }
 button:hover {
     background-color: #1435bc;
+    color: #fff; /* Ensure text stays white on hover */
 }
