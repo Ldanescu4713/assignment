@@ -118,3 +118,23 @@ figcaption {
     margin: 2rem auto;
     text-align: center;
 }
+/*inserting a style for the list of links by removing bullets, customizing the links appeareance using element, pseudo-class and descendant selectors */
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+a {
+    text-decoration: none;
+    color: #1435bc;
+    transition: color 0.2s, text-decoration 0.2s;
+}
+a:visited {
+    color: #522370;
+}
+a:hover, a:focus {
+    text-decoration: underline;
+    color: #1cb0e1;
+}
+a:active {
+    color: #e6d9c6;
+}
