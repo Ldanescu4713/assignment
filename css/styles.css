@@ -138,3 +138,30 @@ a:hover, a:focus {
 a:active {
     color: #e6d9c6;
 }
+/* adding full width, collapsed borders, margins and row effects to the form table using element, pseudo-class and descendant selectors */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 0.2rem;
+}
+th {
+    text-align: left;
+    font-weight: 600;
+    font-variant: small-caps;
+    color: #efece6;
+    background-color: #1cb0e1;
+    padding: 0.2rem;
+}
+td {
+    padding: 0.2rem;
+    border: 0.2rem solid #24a7e4;
+}
+tbody tr:nth-child(even) {
+    background-color: #f8e7cd;
+}
+tbody tr:nth-child(odd) {
+    background-color: #b4924c;
+}
+tbody tr:hover {
+    background-color: #c5bbab;
+}
