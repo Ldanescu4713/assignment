@@ -31,3 +31,7 @@ aside {
     width: 30%; /* increasing width for a better fit */
     margin-left: 2%; /* reducing margin to keep total under 100% */
 }
+/* clearing floats to ensure the footer is always at the bottom of the layout. */
+footer {
+    clear: both;
+}
