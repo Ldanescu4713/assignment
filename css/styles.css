@@ -7,3 +7,27 @@ html {
     /* inserting font style variant, weight size, line-height family */
     font: italic small-caps bold 20px/1.5 'Roboto', 'Helvetica Neue', Arial, sans-serif;
 }
+/* Inserting body selector to apply max-width, center content, add paddings and borders, setting background to keep the text in a readable format and visually contain it*/
+body {
+    max-width: 1600px; /* absolute unit as per instructions */
+    margin: 1rem auto; /* center the body of the page */
+    padding: 1rem; /* adding space inside the body using rem units */
+    border: 0.3rem solid #24a7e4; /* inserting a soft border */
+    background-color: #efece6; /* slight contrast with html background */
+    box-sizing: border-box; /* ensures padding/border included in width */
+}
+/* grouping selectors for layout by applying padding and float on main and aside.
+   Floats position main and aside side-by-side in a 70/30 layout. */
+main, aside {
+    padding: 1rem; /* Adds internal space using rem units */
+    box-sizing: border-box; /* Ensures padding included in width */
+}
+main {
+    float: left;
+    width: 68%; /* reducing width to prevent overflow */
+}
+aside {
+    float: left;
+    width: 30%; /* increasing width for a better fit */
+    margin-left: 2%; /* reducing margin to keep total under 100% */
+}
