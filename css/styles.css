@@ -151,12 +151,10 @@ th {
     color: #efece6;
     background-color: #1cb0e1;
     padding: 0.2rem;
-    margin: 0.2rem;
 }
 td {
     padding: 0.2rem;
     border: 0.2rem solid #24a7e4;
-    margin: 0.2rem;
 }
 tbody tr:nth-child(even) {
     background-color: #ebd8cf;
