@@ -95,3 +95,15 @@ figcaption {
     color: #1435bc;
     margin-top: 0.5rem;
 }
+
+/* styling the iFrame to center the video and to add borders using element selector */
+.video-container iframe {
+    display: block;
+    border:0.3rem solid #1cb0e1;
+    border-radius: 0.8rem;
+    width: 80%;
+    height: 400px;
+    margin:1.5rem auto;
+    box-sizing: border-box;
+}
+/*
