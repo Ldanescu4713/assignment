@@ -70,3 +70,28 @@ blockquote {
     margin: 2rem auto; /* centers blockquote */
     box-shadow: 0 0.5rem 1rem 0.1rem rgba(120, 100, 80, 0.08); /* subtle lift effect */
 }
+/* styling the figure, figcaption and image to enhance visuals; this uses element and child selectors */
+figure {
+    border: 0.3rem solid #24a7e4;
+    border-radius: 1rem;
+    padding: 1rem;
+    background-color: #f6f3ee;
+    margin: 2rem auto;
+    width: 70%;
+    box-sizing: border-box;
+}
+figure img {
+    display: block;
+    border: 0.2rem solid #1cb0e1;
+    border-radius: 0.8rem;
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+}
+figcaption {
+    font-size: 0.9rem;
+    font-variant: small-caps;
+    text-align: center;
+    color: #1435bc;
+    margin-top: 0.5rem;
+}
